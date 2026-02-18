@@ -4,6 +4,18 @@ Streamlit-App zur automatischen Erstellung von Punktezetteln (Klausur-Bewertungs
 
 > **Hinweis:** In öffentlich gehosteten Instanzen sollten **keine vertraulichen oder personenbezogenen Daten** (z.B. echte Matrikelnummern, Namen)  hochgeladen werden.
 
+## Voraussetzungen
+
+[uv](https://docs.astral.sh/uv/) wird als Python-Paketmanager benötigt. Installation:
+
+```bash
+# macOS / Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
 ## Installation & Start
 
 ```bash
